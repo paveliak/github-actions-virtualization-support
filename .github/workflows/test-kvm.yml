@@ -19,4 +19,4 @@ jobs:
       - name: Start libvirt service and test
         run: |
           sudo systemctl start libvirtd
-          virsh -c qemu:///system list --all
+          sudo virsh -c qemu:///system list --all
